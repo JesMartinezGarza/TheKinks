@@ -1,0 +1,469 @@
+
+
+/* General
+*/
+
+/*Fond style*/
+/*Header*/
+/*Body*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*{
+    box-sizing: border-box;
+    /*anchura total = width*/
+
+}
+
+img{
+   /* max-width: 100%;
+    height:100%;*/
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:auto;
+    padding-right:auto;
+    
+    display:block;
+    background-color: antiquewhite;
+    
+    opacity:0.5;
+    transition: 0.5s opacity;
+}
+
+h1{
+    font-size: 48px;
+    width: 800px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:20px;
+    padding-right:20px;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:2px;
+    padding-top:10px;
+
+    
+    background-color: beige;
+    display:block;
+    
+    font-family: "Times New Roman", sans-serif;
+}
+
+h2{
+    font-size: 42px;
+    width: 800px;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:105px;
+    padding-right:25px;
+    color: gold;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:2px;
+    padding-top:10px;
+    
+    background-color:rosybrown;
+    display:block;
+}
+
+
+h3{
+    font-size: 36px;
+    width: 800px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:205px;
+    padding-right:25px;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:2px;
+    padding-top:20px;
+    
+    background-color: firebrick;
+    color:ivory;
+    display: block;
+}
+
+h4{
+    font-size: 30px;
+    width: 800px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:auto;
+    padding-right:auto;
+    background-color:moccasin;
+    color:tomato;
+    display:block;
+}
+
+h5{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.5;
+    color: hotpink;
+    width: 400px;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:auto;
+    padding-right:auto;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:2px;
+    padding-top:10px;
+    
+    display: block;
+    background-color: lemonchiffon;
+    
+}
+
+h6{
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1.5;
+    color: white;
+    width: 700px;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:50px;
+    padding-right:20px;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:2px;
+    padding-top:10px;
+    
+    display: block;
+    background-color: mediumslateblue;
+    
+}
+
+
+
+
+
+#lola{
+    width: 400px;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:155px;
+    padding-right:auto;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:2px;
+    padding-top:10px;
+    
+    color: deeppink;
+    font-style: italic;
+    background-color:lime;
+     display:block;
+}
+
+#sunny{
+    width: 400px;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:95px;
+    padding-right:auto;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:2px;
+    padding-top:10px;
+    
+    color: blue;
+    font-style: italic;
+    background-color:deepskyblue;
+     display:block;
+}
+
+#you{
+    width: 400px;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:70px;
+    padding-right:auto;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:2px;
+    padding-top:10px;
+    
+    color: yellowgreen;
+    font-style: italic;
+    background-color:magenta;
+     display:block;
+} 
+
+#kinks{
+    font-size:2em;
+    width: 1000px;
+    height: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:auto;
+    padding-right:auto;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:20px;
+    padding-top:10px;
+    
+    color:aquamarine;
+    background-color: darkslategrey;
+    display:block;
+}
+
+a{
+    width: 400px;
+    max-height: 20px;
+    
+    overflow:hidden;
+    transition: 0.5s max-height;
+    
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:270px;
+    padding-right:auto;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    
+    
+    color:chocolate;
+    font-weight: bold;
+    font-size:2em;
+    background-color: seagreen;
+    transition: 1s background-color 2s;
+    
+    
+}
+
+p{
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:auto;
+    padding-right:auto;
+    
+    font-size: 0.75em;
+    color: indianred;
+    text-decoration: overline;
+    background-color: ivory;
+    
+    border: 3px solid;
+    
+    
+    border-bottom-color:red;
+    border-top-color:blue;
+    border-left-color:darkblue;
+    border-right-color:darkred;
+    
+    border-bottom-width:20px;
+    border-top-width:20px;
+    border-left-width:20px;
+    border-right-width:20px;
+
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.4), inset 5px 5px 10px 1px rgba(0, 0, 0, 0.4);
+    
+    height: 400px;
+    overflow: scroll;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: aqua;
+    
+    max-height:80px
+}
+
+a:active{
+    color: deeppink;
+}
+
+a:focus{
+    color: pink;
+}
+
+#blurb{
+    width: 800px;
+    height: 80px;
+    margin-left:125px;
+    margin-right:125px;
+    padding-left:125px;
+    padding-right:125px;
+    
+    color: deeppink;
+    font-size: 3em;
+    background-color: turquoise;
+    display:block;
+
+}
+
+ol{
+    list-style-type:decimal;
+    list-style-position:inside;
+    width: 800px;
+    height: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:150px;
+    padding-right:auto;
+    
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:20px;
+    padding-top:10px;
+    
+    
+    color: white;
+    font-size: 1em;
+    background-color: black;
+    display:block;
+}
+
+
+
+body{
+    background-image: url(../pictures/Ray.jpeg);
+    /*background-position: right 20px bottom 20px;*/
+    /*background: hotpink url(../pictures/Ray.jpeg) no-repeat right top;*/
+    /*background-size: 100% auto;*/
+    /*background-size: contain;*/
+    /*background-size: cover;*/
+    
+}
+
+/*@font-face{
+    font-family: Lobster;
+    src: url(fonts/lobster.woff)
+        format("woff"),
+        url(fonts/lobster.ttf)
+        format("truetype");
+    font-weight:bold;
+    font-style:normal;*/
+
+.principal{
+    background-color: antiquewhite;
+    float:left;
+    border: 4px solid white;
+    padding:20px;
+    
+    min-height:30em;
+    width: 60%;
+}
+.secundario{
+    background-color: orange;
+    float:right;
+    border: 4px solid white;
+    padding:20px;
+    
+    min-height:30em;
+    width: 40%;
+    
+}
+
+/*@media screen and (max-width:1000px){
+    h1,h2{
+        font-size: 24px;
+    }
+    body{
+        font-size: 16px;
+    }
+}*/
+
+/*desktop*/
+@media screen and (max-width:800px){
+    .principal,
+    .secundario{
+        width:100%;
+        float:none;
+    }
+    
+}
+
+/*mobile*/
+@media screen and (min-width: 800px){
+    .principal{
+        width:60%;
+        float:left;
+    }
+    .secundario{
+        width:40%;
+        float:none;
+    }
+}
+
+img:hover{
+    opacity:1;
+}
+
+
+
+
+
+/*Make it pop*/
